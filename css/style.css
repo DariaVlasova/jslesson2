@@ -1,0 +1,48 @@
+tr {
+display: grid;
+grid-template-columns: repeat(4,1fr);
+grid-template-rows: repeat(2,1fr);
+row-gap: 0px;
+
+}
+td{
+    outline: 1px solid black; 
+    padding: 10px 10px;
+    grid-row: 2;
+}
+td.title{
+    font-size: 24px;
+    font-weight: 800;
+    grid-row: 1;
+}
+h1{
+    color: gray;
+    text-align: center;
+    padding: 40px 30px;
+}
+table{
+    margin: 0 auto;
+    background-color: wheat;
+}
+a{
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 700;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: white;
+}
+.container{
+    background-color: pink;
+    margin: 0 auto;
+    padding: 10px 50px;
+}
+.title{
+    font-size: 24px;
+    font-weight: 800;
+}
+div{
+    font-size: 18px;
+    font-weight: 500;
+    padding: 15px 0px;
+}

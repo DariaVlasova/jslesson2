@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css"> 
+</head>
+<body>
+    <div class="container">
+    <h1>Задача 0. Обчислити значення виразів:</h1>
+    <table>
+        <tr>
+    <td class="title">S1=a+12+b </td>
+    <td>
+        <script>
+        let a = parseFloat(prompt('Введіть значення а','а'))
+        let b = parseFloat(prompt('Введіть значення b','b'))   
+        let S1 = a+12+b
+        document.write(`S1 = ${S1}`)
+         </script>
+        </td>
+    <td class="title"> S2= &#8730((a+b)/2a) </td>
+    <td>
+        <script>
+        let S2 =  Math.floor(Math.sqrt((a+b)/(2*a)))
+        document.write(`S2 = ${S2}`)
+        </script>
+        </td>
+        <td class="title"> S3= &#8730((a+b)*c)</td> 
+    <td>
+        <script>
+        let c = parseFloat(prompt('Введіть значення c','c'))
+let S3 = Math.floor(Math.sqrt((a+b)*c))
+document.write(`S3 = ${S3}`);
+        </script>
+        </td>  
+    <td class="title" > S4=sin⁡(a/-b)</td>
+    <td>
+        <script>
+       let S4 = Math.floor(Math.sin(a/-b))
+document.write(`S4 = ${S4}`)</script>
+        </script>
+        </td>  
+</tr>
+
+</table>
+</div>
+</body>
+</html>
